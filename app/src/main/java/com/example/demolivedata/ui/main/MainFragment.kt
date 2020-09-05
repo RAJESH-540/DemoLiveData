@@ -13,7 +13,9 @@ import com.example.demolivedata.databinding.MainFragmentBinding
 
 class MainFragment : Fragment() {
 
-    val nonNullString:String by lazy { "new value" }
+    val byLazy:String by lazy { "By Lazy" }
+
+    val nonNullString:String =""
 
     val nullString:String?=null
 
